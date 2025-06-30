@@ -1,10 +1,10 @@
 import './App.css'
+import TodoApp from './containers/Todo/TodoApp'
 
 function App() {
   return (
     <div className="app">
-      <h1>Todo App</h1>
-      <p>Profesyonel React Todo Uygulaması</p>
+      <TodoApp />
     </div>
   )
 }
